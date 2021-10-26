@@ -1,7 +1,6 @@
 import React from "react";
 import formatCurrency from '../util';
 
-
 // Products
 const Products = ({ products }) => {
   console.log("Products ", products);

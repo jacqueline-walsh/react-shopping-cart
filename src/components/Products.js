@@ -1,4 +1,7 @@
 import React from "react";
+import formatCurrency from '../util';
+
+
 // Products
 const Products = ({ products }) => {
   console.log("Products ", products);
@@ -15,7 +18,7 @@ const Products = ({ products }) => {
                 <p>{product.title}</p>
               </a>
               <div className="product-price">
-                <div></div>
+                <div>{formatCurrency(product.price)}</div>
                 <button className="button primary">Add To Cart</button>
               </div>
             </div>

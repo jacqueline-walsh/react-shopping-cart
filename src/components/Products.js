@@ -1,5 +1,5 @@
 import React from 'react';
-
+// Products
 const Products = ({products}) => {
     console.log("Products ", products)
     return (

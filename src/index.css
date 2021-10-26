@@ -134,3 +134,60 @@ footer {
 .filter div {
   flex: 1;
 }
+
+.product-message {
+  text-align: center;
+}
+
+/* Index css */
+.cart {
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-header {
+  border-bottom: .1rem #c0c0c0 solid;
+}
+
+.cart-items {
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.cart-item img {
+  width: 5rem;
+}
+
+.cart-item li {
+  display: flex;
+}
+
+.cart-item li div {
+  padding: .5rem;
+}
+
+.cart-item li:last-child {
+    flex: 1;
+}
+
+.right {
+  text-align: right;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.total > div {
+  font-size: 2rem;
+}
+
+.total > div, .total > button {
+  flex: 1;
+}

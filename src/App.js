@@ -1,4 +1,5 @@
-
+import data from './data.json';
+import Products from './components/Products';
 
 function App() {
   return (
@@ -7,7 +8,14 @@ function App() {
         <a href="/">React Shopping Cart</a>
       </header>
       <main>
-        Product List
+        <div className="content">
+          <div className="main">
+            <Products products={data.products} />
+          </div>
+          <div className="sidebar">
+            Cart Items
+          </div>
+        </div>
       </main>
       <footer>
         All rights reserved
